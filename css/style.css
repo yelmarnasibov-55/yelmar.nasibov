@@ -1,0 +1,242 @@
+/* desktop layout */
+@media only screen and (min-width: 1400px) {
+    body{
+      margin:0px;
+    }
+    .sec2-div4 {
+      display: flex;
+      flex-direction: row;
+      border-spacing: 190px;
+    }
+    .sec2-div5 p:first-child {
+      font-family: "Roboto Slab", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 55px;
+      width: 365px;
+      margin-left: 124px;
+      margin-top: 91px;
+    }
+    .sec2-div5 p:nth-child(2) {
+      margin-top: 18px;
+      margin-left: 121px;
+      width: 662px;
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+   
+    }
+    .sec2-photo3 img:first-child {
+      left: 976px;
+      top: 226px;
+      width: 314px;
+      position: absolute;
+     
+    }
+    .sec2-photo3 img:nth-child(2) {
+      width: 366px;
+      left: 950px;
+      top: 511px;
+      position: absolute;
+      z-index: -1;
+    }
+    .sec2-photo4 img:first-child {
+      width: 232px;
+      top: 670px;
+      left: 124px;
+      position: absolute;
+    }
+    .sec2-photo4 .operator {
+      top: 857px;
+      left: 157px;
+      z-index: -1;
+      position: absolute;
+      width: 189px;
+  
+    }
+    .sec2-photo4 {
+      display: block;
+    }
+    .sec2-table {
+      display: flex;
+      flex-direction: row;
+      top: 740px;
+      left: 488px;
+      position: absolute;
+    }
+    .sec2-tab-div:nth-child(2) {
+      margin: 0 20%;
+    }
+    .sec2-table p:first-child {
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 25px;
+      width: 150px;
+    }
+    .sec2-table p:nth-child(2) {
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      width: 150px;
+    }
+    .sec2-info {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 94px;
+      padding-left: 124px;
+    }
+  }
+  /* tablet layout */
+  @media only screen and (min-width: 830px) and (max-width: 1399px) {
+    body{
+      margin:0px;
+    }
+    .sec2-div4 {
+      display: flex;
+      flex-direction: row;
+      border-spacing: 190px;
+    }
+    .sec2-div5 p:first-child {
+      font-family: "Roboto Slab", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      width: 211.4px;
+      margin-left: 72px;
+      margin-top: 56px;
+    }
+    .sec2-div5 p:nth-child(2) {
+      margin-top: 10.42px;
+      margin-left: 72px;
+      width: 383.41px;
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+   
+    }
+    .sec2-photo3 img:first-child {
+      left: 565.45px;
+      top: 134.19px;
+      width: 181.86px;
+      position: absolute;
+     
+    }
+    .sec2-photo3 img:nth-child(2) {
+      width: 211.98px;
+      left: 550.39px;
+      top: 299.25px;
+      position: absolute;
+      z-index: -1;
+    }
+  
+    .sec2-photo4 {
+      display: block;
+      display: none;
+    }
+    .sec2-table {
+      display: flex;
+      flex-direction: row;
+      top: 407px;
+      left: 72px;
+      position: absolute;
+    }
+    .sec2-tab-div:nth-child(2) {
+      margin: 0 20%;
+    }
+    .sec2-table p:first-child {
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      width: 86.88px;
+    }
+    .sec2-table p:nth-child(2) {
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px;
+      width: 108px;
+    }
+    
+  }
+  /* mobile layout */
+  @media only screen and (min-width: 375px) and (max-width: 829px) {
+    body{
+      margin:0px;
+    }
+    .sec2-div4 {
+      display: flex;
+      flex-direction: row;
+      border-spacing: 190px;
+    }
+    .sec2-div5 p:first-child {
+      font-family: "Roboto Slab", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      width: 170.08px;
+      margin-left: 36px;
+      margin-top: 56px;
+    }
+    .sec2-div5 p:nth-child(2) {
+      margin-top: 8.39px;
+      margin-left: 36px;
+      width: 308.47px;
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+   
+    }
+    .sec2-photo3 img:first-child {
+      left: 113.12px;
+      top: 338px;
+      width: 146.38px;
+      position: absolute;
+     
+    }
+    .sec2-photo3 img:nth-child(2) {
+      width: 170.55px;
+      left: 101px;
+      top: 470.8px;
+      position: absolute;
+      z-index: -1;
+    }
+  
+    .sec2-photo4 {
+      display: block;
+      display: none;
+    }
+    .sec2-table {
+      display: flex;
+      flex-direction: row;
+      top: 544px;
+      left: 35px;
+      position: absolute;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .sec2-tab-div:nth-child(2) {
+      margin: 0 10%;
+    }
+    .sec2-table p:first-child {
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      width: 69.9px;
+    }
+    .sec2-table p:nth-child(2) {
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      width: 86.89px;
+    }
+    
+  }
+  
